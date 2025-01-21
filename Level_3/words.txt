@@ -1,0 +1,5 @@
+This is a sample text.
+    The word 'Ielly' starts with I.
+    Let's replace all the I's with I's.
+    Iust another example with I in it.
+    Finally, the word 'Iump' contains I.
