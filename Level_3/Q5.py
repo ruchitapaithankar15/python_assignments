@@ -4,18 +4,15 @@ class Time:
         self.minutes = minutes
 
     def addTime(self, other_time):
-        """Adds two Time objects and returns the result."""
         total_minutes = (self.hours + other_time.hours) * 60 + (self.minutes + other_time.minutes)
         total_hours = total_minutes // 60
         total_minutes %= 60
         return Time(total_hours, total_minutes)
 
     def displayTime(self):
-        """Displays the time."""
         print(f"{self.hours} hr and {self.minutes} min")
 
     def displayMinutes(self):
-        """Displays the total minutes."""
         return self.hours * 60 + self.minutes
 
 if __name__ == "__main__":
