@@ -1,6 +1,5 @@
 class Shape:
     def area(self):
-        """Returns the area of the shape."""
         return 0
 
 class Square(Shape):
