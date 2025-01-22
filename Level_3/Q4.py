@@ -7,7 +7,6 @@ class Square(Shape):
         self.length = length
 
     def area(self):
-        """Returns the area of the square."""
         return self.length ** 2
 
 if __name__ == "__main__":
