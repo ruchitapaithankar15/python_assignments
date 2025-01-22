@@ -1,5 +1,4 @@
 def read_and_append_even_length_strings():
-    """Reads doc.txt, extracts even length strings (words), and appends them to the same file."""
     filename = 'doc.txt'
     
     try:
